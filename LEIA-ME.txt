@@ -1,0 +1,23 @@
+SMARTRAVEL — VERSÃO INTERATIVA
+
+Esta versão permite clicar, digitar, selecionar datas, adicionar registros e anexar fotos de roupas.
+
+COMO ABRIR NO PYCHARM (Windows)
+1. Extraia o arquivo ZIP.
+2. No PyCharm, abra a pasta SmarTravel_Interativo.
+3. Abra o Terminal do PyCharm.
+4. Execute:
+   python -m pip install -r requirements.txt
+5. Depois execute:
+   python -m streamlit run app.py
+
+Se o comando python não funcionar, tente trocar python por py.
+
+O navegador abrirá o SmarTravel em http://localhost:8501.
+
+IMPORTANTE
+- As informações são guardadas localmente no arquivo smartravel.db.
+- As fotos são guardadas na pasta fotos_roupas.
+- Faça backup desses arquivos se quiser preservar os dados.
+- Esta versão não consulta automaticamente clima, regras de entrada de países ou regras de bagagem das companhias.
+- Para publicar na internet e compartilhar com outras pessoas, será necessário configurar hospedagem e armazenamento adequado.
